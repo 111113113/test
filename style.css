@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: beige;
+    font-family: Microsoft JhengHei;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 1024px;
+
+}
+
+nav {
+    background-color: #B63D32;
+    text-align: center;
+}
+
+
+ul {
+    display: inline-block;
+    margin: 0px;
+}
+
+
+.el {
+    list-style-type: none;
+    float: left;
+    text-align: justify;
+    background-color: #B63D32;
+
+}
+
+.el a {
+    display: block;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.el a:hover {
+    color: #FFC90E
+}
+
+#content {
+    height: 350px;
+    float: right;
+    width: 774px;
+    background-color: #F4F4ED;
+}
+
+#content_in {
+    padding: 30px 50px;
+    text-align: center;
+    background-color: #F4F4ED;
+}
+
+#content h1 {
+    color: #B63D32;
+    margin-bottom: 10px;
+}
+
+#content_in p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#content_in a {
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+    text-decoration: none;
+    background-color: #B63D32;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #71552A;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    #wrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    li a {
+        padding: 10px;
+    }
+}
+
+#logo img {
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #ffe634;
+    float: left;
+    height: 472px;
+}
+
+#sidebar ul {
+    margin-left: 65px;
+    margin-top: 30px;
+
+    list-style: none;
+
+}
+
+#sidebar li {
+    float: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#sidebar li a {
+    color: #000000;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #B63D32;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#sidebar li a:hover {
+    color: #FFFFFF;
+    border-color: #ffffff;
+}
+
+.flex {
+    display: flex;
+    background-color: #B63D32;
+    height: auto;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
